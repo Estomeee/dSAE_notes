@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"60dd16cbc4373ae8","type":"group","x":-1600,"y":-3360,"width":1920,"height":1800,"label":"Тренировочные датасеты"},
+		{"id":"32b01430fcd58b4d","type":"group","x":-520,"y":0,"width":1400,"height":1154,"label":"ЛогРег на фичах"},
+		{"id":"6252cbd91c6dd493","type":"group","x":-520,"y":-920,"width":940,"height":635,"label":"Распределения статистик"},
+		{"id":"35c973966f470047","type":"group","x":-40,"y":93,"width":440,"height":1041,"label":"dSAE-1"},
+		{"id":"370bb45c60f9da22","type":"group","x":420,"y":93,"width":440,"height":1041,"label":"google-SAE-18-big"},
+		{"id":"32c3abfb8e8ea7ce","type":"group","x":-500,"y":93,"width":440,"height":1041,"label":"Raw"},
+		{"id":"510c0c761740d2ab","type":"group","x":-500,"y":-859,"width":440,"height":554,"label":"dSAE-18"},
+		{"id":"27d24ea2a4689622","type":"group","x":-40,"y":-859,"width":440,"height":554,"label":"google-sae-18-big"},
+		{"id":"59704f4468f3e5a1","type":"file","file":"Локализация фич.md","x":-1600,"y":-1080,"width":900,"height":1080},
+		{"id":"359ced8a92ed08a0","type":"file","file":"Распределения статистик/google-sae-18-big/count.png","x":-20,"y":-839,"width":400,"height":157},
+		{"id":"8ca7246d3f6a3e9b","type":"file","file":"Распределения статистик/dsae18/count.png","x":-479,"y":-838,"width":399,"height":156},
+		{"id":"4f06bf6280264892","type":"file","file":"Распределения статистик/google-sae-18-big/mean_activation.png","x":-20,"y":-660,"width":399,"height":155},
+		{"id":"ceec279795763467","type":"file","file":"ЛогРег на локализованных фичах/dSAE-18/dsae18_loc1.png","x":-20,"y":113,"width":400,"height":305},
+		{"id":"96ffb092a8641762","type":"file","file":"ЛогРег на локализованных фичах/googleSAE-18-big/loc2.png","x":440,"y":461,"width":400,"height":310},
+		{"id":"32272c103d7e8305","type":"file","file":"ЛогРег на локализованных фичах/googleSAE-18-big/rnd.png","x":440,"y":800,"width":400,"height":314},
+		{"id":"4fedec421d70ad21","type":"file","file":"ЛогРег на локализованных фичах/dSAE-18/dsae18_loc2.png","x":-20,"y":461,"width":400,"height":305},
+		{"id":"b2eafa135412fabd","type":"file","file":"ЛогРег на локализованных фичах/dSAE-18/dsae18_rnd.png","x":-20,"y":800,"width":400,"height":314},
+		{"id":"f3d9df9ee7bae3ab","type":"text","text":"","x":-950,"y":-640,"width":250,"height":60},
+		{"id":"e47873b4eb620709","type":"file","file":"Распределения статистик/dsae18/mean_activation.png","x":-479,"y":-660,"width":399,"height":155},
+		{"id":"24ec96a64d4fdec1","type":"file","file":"Распределения статистик/dsae18/variance.png","x":-480,"y":-480,"width":399,"height":155},
+		{"id":"0b1fbc5ad761eeac","type":"file","file":"Распределения статистик/google-sae-18-big/variance.png","x":-20,"y":-480,"width":399,"height":155},
+		{"id":"e9d60dc519016e0b","type":"file","file":"ЛогРег на локализованных фичах/raw/loc1.png","x":-480,"y":113,"width":400,"height":305},
+		{"id":"b53f4675ad260a93","type":"file","file":"ЛогРег на локализованных фичах/raw/loc2.png","x":-480,"y":461,"width":400,"height":305},
+		{"id":"a855234ff4570fe8","type":"file","file":"ЛогРег на локализованных фичах/raw/rnd.png","x":-480,"y":800,"width":400,"height":314},
+		{"id":"9d0d2b52d2b84e4e","type":"file","file":"Датасеты/Тренировочные датасеты/V1/Датасет V1.md","x":-1560,"y":-3320,"width":900,"height":1700},
+		{"id":"dda3910f9d699ee1","type":"file","file":"Датасеты/Тренировочные датасеты/V2/Датасет V2.md","x":-620,"y":-3320,"width":900,"height":1700}
+	],
+	"edges":[
+		{"id":"dd2ca2fa841a9179","fromNode":"f3d9df9ee7bae3ab","fromSide":"right","toNode":"6252cbd91c6dd493","toSide":"left"}
+	]
+}
