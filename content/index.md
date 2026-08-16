@@ -1,6 +1,16 @@
 ---
 title: Главная
 ---
+```
+████   ████  ███  █████   
+█░░░█ █ ░░░░█ ░░█ █░░░░░  
+█░░░█░ ███░░█████░████░░░ 
+█░░ █░░ ░░█ █░░░█░█░░░░   
+████ ░████░░█░░░█░█████░  
+ ░░░░ ░░░░░ ░░░  ░░░░░░░  
+  ░░░░  ░░░░  ░   ░ ░░░░░ 
+```
+
 **Ключевые слова:** Large Language Models, Mechanistic Interpretability, Sparse Autoencoders, AI Safety, harmful content, feature localization, domain-specific SAE, Gemma.
 
 **GitHub с кодом:** https://github.com/Estomeee/dSAE-for-safety
