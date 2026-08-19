@@ -1,4 +1,12 @@
 [Ссылка на статью](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/Gemma_Scope_2_Technical_Paper.pdf)
+## Точки сбора активаций
+Для SAE нас интересуют три точки сбора активаций: 
+- **Attn out Prelinear**
+  Выходные данные модуля внимания до применения финального линейного преобразования $𝑊_𝑂$ и `RMSNorm`. То есть берут результат attention **после объединения голов, но до `o_proj`.
+- **MLP output**
+  На выходах `MLP` после применения `RMSNorm`;
+- **Residual**
+  В точке объединения остаточного потока и выхода  `MLP -> RMSNorm`.
 ## Модификации функции ошибки
 ### Quadratic L0 penalty
 Происходит замена обычной `L0 penalty` на `Quadratic L0 penalty`.
@@ -111,4 +119,4 @@ flowchart TB
 Если аблируем latent на позиции сгенерированного токена, мы вмешиваемся уже в текущее внутреннее состояние модели во время формирования ответа.
 ## Обучение 
 В GemmaScope2 при описании обучения ссылаются на GemmaScope1 - [[GemmaScope1]].
-
+В целом, все тоже самое: инициализация, нормализация и т. д. Добавляются только модификации, которые описаны выше. 
