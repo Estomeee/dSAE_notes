@@ -8,6 +8,7 @@
 		{"id":"32c3abfb8e8ea7ce","type":"group","x":-4980,"y":-2967,"width":440,"height":1041,"label":"Raw"},
 		{"id":"510c0c761740d2ab","type":"group","x":-4980,"y":-3919,"width":440,"height":554,"label":"dSAE-18"},
 		{"id":"27d24ea2a4689622","type":"group","x":-4520,"y":-3919,"width":440,"height":554,"label":"google-sae-18-big"},
+		{"id":"712e249968ddcd32","type":"text","text":"Фичи с нормализацией","x":-1925,"y":-2750,"width":250,"height":60},
 		{"id":"f3d9df9ee7bae3ab","type":"text","text":"","x":-5430,"y":-3700,"width":250,"height":60},
 		{"id":"59704f4468f3e5a1","type":"file","file":"Локализация фич.md","x":-6080,"y":-4438,"width":900,"height":1080},
 		{"id":"24ec96a64d4fdec1","type":"file","file":"Распределения статистик/dsae18/variance.png","x":-4960,"y":-3540,"width":399,"height":155},
@@ -23,7 +24,13 @@
 		{"id":"96ffb092a8641762","type":"file","file":"ЛогРег на локализованных фичах/googleSAE-18-big/loc2.png","x":-4040,"y":-2599,"width":400,"height":310},
 		{"id":"32272c103d7e8305","type":"file","file":"ЛогРег на локализованных фичах/googleSAE-18-big/rnd.png","x":-4040,"y":-2260,"width":400,"height":314},
 		{"id":"4fedec421d70ad21","type":"file","file":"ЛогРег на локализованных фичах/dSAE-18/dsae18_loc2.png","x":-4500,"y":-2599,"width":400,"height":305},
-		{"id":"b2eafa135412fabd","type":"file","file":"ЛогРег на локализованных фичах/dSAE-18/dsae18_rnd.png","x":-4500,"y":-2260,"width":400,"height":314}
+		{"id":"b2eafa135412fabd","type":"file","file":"ЛогРег на локализованных фичах/dSAE-18/dsae18_rnd.png","x":-4500,"y":-2260,"width":400,"height":314},
+		{"id":"0da634bcd4940861","type":"file","file":"Pasted image 20260827215542.png","x":-2075,"y":-3644,"width":400,"height":298},
+		{"id":"50c86e7f49f2fc06","type":"file","file":"Pasted image 20260827221046.png","x":-1620,"y":-3041,"width":483,"height":201},
+		{"id":"442c213f407fee21","type":"file","file":"Pasted image 20260827221321.png","x":-1620,"y":-3260,"width":483,"height":201},
+		{"id":"e31dc0af25203012","type":"file","file":"Pasted image 20260827221053.png","x":-1620,"y":-2820,"width":483,"height":200},
+		{"id":"3e1fbd0c271371fd","type":"text","text":"Пороги","x":-1925,"y":-3189,"width":250,"height":60},
+		{"id":"a5e9894e72beded5","type":"text","text":"Фичи без нормализации","x":-1925,"y":-2960,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"dd2ca2fa841a9179","fromNode":"f3d9df9ee7bae3ab","fromSide":"right","toNode":"6252cbd91c6dd493","toSide":"left"}
