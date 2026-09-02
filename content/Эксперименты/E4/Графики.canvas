@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"d7d5cc267c858bec","type":"file","file":"Эксперименты/E4/Графики/32.png","x":-360,"y":-480,"width":604,"height":179},
+		{"id":"f6a5518df2c6a447","type":"file","file":"Эксперименты/E4/Графики/64.png","x":-360,"y":-281,"width":607,"height":180},
+		{"id":"018cb939d64b45d2","type":"file","file":"Эксперименты/E4/Графики/128.png","x":-360,"y":-81,"width":604,"height":179},
+		{"id":"b98c23f2eccee846","type":"text","text":"64","x":-500,"y":-221,"width":96,"height":61},
+		{"id":"69c606f0f1a4ce72","type":"text","text":"128","x":-500,"y":-22,"width":100,"height":62},
+		{"id":"2f55dc38e02826ac","type":"text","text":"256","x":-500,"y":177,"width":100,"height":61},
+		{"id":"7c026928a6c248b5","type":"text","text":"512","x":-500,"y":376,"width":96,"height":61},
+		{"id":"d583e1f9be8a788e","type":"text","text":"32","x":-500,"y":-421,"width":100,"height":61},
+		{"id":"e0b5be4171f30557","type":"file","file":"Эксперименты/E4/Графики/32_full.png","x":-360,"y":-760,"width":604,"height":179},
+		{"id":"e18e4c07ed075c29","type":"file","file":"Эксперименты/E4/Графики/512.png","x":-360,"y":317,"width":604,"height":179},
+		{"id":"036e83ded5969fa9","type":"file","file":"Эксперименты/E4/Графики/256.png","x":-360,"y":118,"width":604,"height":179}
+	],
+	"edges":[]
+}
